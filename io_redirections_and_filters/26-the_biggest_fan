@@ -1,3 +1,2 @@
 #!/bin/bash
 cut -f1 | sort | uniq -c | sort -nr | head -n11 | while read -r c h; do echo "$h"; done
-
