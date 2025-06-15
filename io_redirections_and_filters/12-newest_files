@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -1t --file-type | grep -v '/$' | head -n 10
+
