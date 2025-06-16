@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Print "To infinity and beyond" indefinitely and handle SIGTERM with a custom message
+
+trap 'echo "I am invincible!!!"' SIGTERM
+while true; do echo "To infinity and beyond"; sleep 2; done
